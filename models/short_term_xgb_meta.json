@@ -1,0 +1,30 @@
+{
+  "experiment": "ShortTerm_Core",
+  "label": "label1",
+  "features": [
+    "age",
+    "gender",
+    "baseline GFR",
+    "baseline UTP",
+    "MAP",
+    "Alb",
+    "RASB",
+    "尿酸",
+    "前驱感染",
+    "肉眼血尿",
+    "IgA",
+    "C3",
+    "血尿（RBC）",
+    "Hb"
+  ],
+  "xgb_params": {
+    "model__subsample": 0.8,
+    "model__reg_lambda": 1,
+    "model__reg_alpha": 0.05,
+    "model__n_estimators": 500,
+    "model__min_child_weight": 3,
+    "model__max_depth": 2,
+    "model__learning_rate": 0.01,
+    "model__colsample_bytree": 0.7
+  }
+}

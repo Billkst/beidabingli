@@ -1,0 +1,35 @@
+{
+  "experiment": "LongTerm_Core+MEST",
+  "label": "label2",
+  "features": [
+    "age",
+    "gender",
+    "baseline GFR",
+    "baseline UTP",
+    "MAP",
+    "Alb",
+    "RASB",
+    "尿酸",
+    "M",
+    "E",
+    "S",
+    "T",
+    "C",
+    "前驱感染",
+    "肉眼血尿",
+    "IgA",
+    "C3",
+    "血尿（RBC）",
+    "Hb"
+  ],
+  "xgb_params": {
+    "model__subsample": 0.6,
+    "model__reg_lambda": 5,
+    "model__reg_alpha": 0.05,
+    "model__n_estimators": 200,
+    "model__min_child_weight": 7,
+    "model__max_depth": 4,
+    "model__learning_rate": 0.05,
+    "model__colsample_bytree": 0.7
+  }
+}
